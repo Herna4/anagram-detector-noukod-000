@@ -8,7 +8,7 @@ class Anagram
   end
   
   def match
-    some_word.split("")
+    some_word.split("") == some_word.split("")
   end
  
   
