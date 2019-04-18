@@ -11,6 +11,7 @@ class Anagram
     words.select do |value|
     (@word.split("").sort) == (value.split("").sort)
   end
+  end
  
   
 end
